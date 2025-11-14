@@ -1,0 +1,1 @@
+alert("For best experience use desktop version");
