@@ -202,6 +202,28 @@ input {
 
 
 }
+.numbering {
+  /* color: white; Or transparent if you only want the outline */
+  -webkit-text-stroke-width: 2px; /* Adjust the width of the outline */
+  -webkit-text-stroke-color: rgb(255, 255, 255); /* Set the color of the outline */
+  /* font-size: 48px; Example font size */
+  /* font-weight: bold; Example font weight */
+}
+
+.numbering {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    /* top: 78px;
+    left: 4px; */
+    font-size: 79px;
+    font-weight: 750;
+   
+}
+.pos{
+    bottom:10%;
+    
+}
+
 
 .scrollermain {
     position: relative;
@@ -212,7 +234,7 @@ input {
     margin: 0;
     padding: 0;
     list-style: none;
-    overflow-y:scroll;
+    overflow-y: scroll;
     overflow-y: visible;
     overflow-x: scroll;
     /* -ms-overflow-style: none;
@@ -223,29 +245,30 @@ input {
     scroll-margin-inline-start: 2.5em;
 
 }
+
 .scrollermain::-webkit-scrollbar {
-            width: 16px;
-        }
-        
-       .scrollermain::-webkit-scrollbar-track {
-            border-radius: 8px;
-            background-color: #e7e7e700;
-            border: 1px solid #cacaca00;
-        }
-        
-       .scrollermain::-webkit-scrollbar-thumb {
-            border-radius: 8px;
-          border: 3px solid transparent;
-           background-clip: content-box;
-            background-color: #d10808;
-        }
+    width: 16px;
+}
+
+.scrollermain::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #e7e7e700;
+    border: 1px solid #cacaca00;
+}
+
+.scrollermain::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+    background-color: #d10808;
+}
 
 
 
 .b-one {
     background-color: transparent;
     border-radius: 10px;
-    border:none;
+    border: none;
 }
 
 .d-one {
@@ -270,19 +293,22 @@ li {
     scroll-margin-inline-start: 2.75rem;
     padding: 0.5rem 1.375rem;
 }
-h2{
+
+h2 {
     color: white;
 }
-.happy{
+
+.happy {
     /* display: flex; */
     /* background-color: red; */
-    
+
     /* border:2px solid red; */
     /* align-items: center; */
     height: 23rem;
     width: 100%;
-} 
-.h-things{
+}
+
+.h-things {
     display: flex;
     /* background-color: azure; */
     /* border:2px solid red; */
@@ -290,55 +316,63 @@ h2{
     height: 20rem;
     width: 100%;
     justify-content: center;
-    
+
 }
-.happy .h-things div{
+
+.happy .h-things div {
     /* border: 2px solid greenyellow; */
     height: 15rem;
     width: 30rem;
     margin: 0.5rem;
     border-radius: 15px;
-    color:wheat;
+    color: wheat;
     padding: 10px;
     background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
     color: white;
     /* position: relative; */
-    
-    
+
+
 
 }
-.happy .h-things div h2{
-    
+
+.happy .h-things div h2 {
+
     margin: 5px;
     font-size: 1.3rem;
     margin-top: 10px;
-    
+
 
 }
-.happy .h-things div p{
+
+.happy .h-things div p {
     margin: 5px;
     font-size: 0.8rem;
     margin-top: 15px;
 
 }
-.happy .h-things div svg{
+
+.happy .h-things div svg {
     position: relative;
     top: 78px;
     left: 188px;
 }
+
 .happy .h-things :nth-child(2) svg {
-    top:49px;
+    top: 49px;
 }
-.happy .h-things :nth-child(1) svg{
+
+.happy .h-things :nth-child(1) svg {
     top: 65px;
 }
-.faq div:hover{
+
+.faq div:hover {
     background-color: rgb(136, 135, 135);
 }
-.faq div{
+
+.faq div {
     transition: all 0.4s ease-out;
     border-radius: 10px;
-    padding:5px;
+    padding: 5px;
     margin: 8px;
     display: flex;
     align-items: center;
@@ -346,37 +380,43 @@ h2{
     height: 4.5rem;
     background-color: rgb(48, 48, 48);
     justify-content: space-between;
-    cursor: pointer ;
+    cursor: pointer;
     /* margin:auto; */
 
 }
-.faq div span{
+
+.faq div span {
     margin-left: 15px;
-    
+
     font-size: 24px;
 
 }
-.faq div svg{
+
+.faq div svg {
     margin-right: 15px;
 }
-.idk{
+
+.idk {
     margin-top: 75px;
     /* background-color: rgba(229, 9, 20, 1); */
 }
-h4{
-    color:white;
-    margin:25px;
+
+h4 {
+    color: white;
+    margin: 25px;
 
 }
-.lower{
+
+.lower {
     margin-top: 70px;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
-.lower .email input{
+
+.lower .email input {
     padding-left: 19px;
     padding-right: 350px;
     padding-top: 20px;
@@ -386,7 +426,8 @@ h4{
     background-color: transparent;
     border: 1px solid rgb(218, 210, 210);
 }
-.lower .email button{
+
+.lower .email button {
     background-color: red;
     color: white;
     padding-left: 43px;
@@ -398,11 +439,13 @@ h4{
     border: 0px;
     cursor: pointer;
 }
-.footer h5{
+
+.footer h5 {
     color: white;
     margin: 25px;
 }
-.footer .row .col{
+
+.footer .row .col {
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -411,33 +454,40 @@ h4{
     width: 100%;
 
 }
-.footer .row .col a{
+
+.footer .row .col a {
     /* text-decoration: none; */
     color: rgb(187, 186, 186);
     margin: 5px;
 }
-.footer .row{
+
+.footer .row {
     display: flex;
 }
-small{
+
+small {
     color: rgb(187, 186, 186);
     margin: 25px;
     font-size: 15px;
 }
-.blank{
+
+.blank {
     height: 20vh;
     width: 100%;
 
 }
-.blank p{
+
+.blank p {
     color: rgb(187, 186, 186);
     margin: 25px;
     font-size: 15px;
 }
-.blank a{
-    color:rgb(30, 120, 224)
+
+.blank a {
+    color: rgb(30, 120, 224)
 }
-.footer{
+
+.footer {
     margin-top: 70px;
 }
 
@@ -446,10 +496,15 @@ small{
     .main {
         background-size: cover;
     }
-    .bigtext, .secondtext, .thirdtext {
+
+    .bigtext,
+    .secondtext,
+    .thirdtext {
         max-width: 60vw;
     }
-    .first, .content {
+
+    .first,
+    .content {
         padding: 0 2rem;
     }
 }
@@ -459,30 +514,40 @@ small{
         max-width: 95vw;
         height: 70px;
     }
+
     .bigtext {
         font-size: 36px;
         max-width: 80vw;
     }
-    .secondtext, .thirdtext {
+
+    .secondtext,
+    .thirdtext {
         font-size: 16px;
         max-width: 80vw;
     }
-    .first, .content {
+
+    .first,
+    .content {
         height: auto;
         padding: 0 1rem;
     }
+
     .happy .h-things {
         flex-direction: column;
         height: auto;
     }
+
     .happy .h-things div {
         width: 90vw;
         margin: 0.5rem 0;
     }
+
     .scroller {
         height: 15rem;
     }
-    .d-one, .s-one {
+
+    .d-one,
+    .s-one {
         width: 8rem;
         height: 11rem;
     }
@@ -495,23 +560,30 @@ small{
         max-width: 100vw;
         padding: 10px 0;
     }
+
     .main {
         height: 60vh;
     }
+
     .hero {
         height: 60vh;
         top: -30px;
     }
+
     .bigtext {
         font-size: 24px;
         max-width: 95vw;
     }
-    .secondtext, .thirdtext {
+
+    .secondtext,
+    .thirdtext {
         font-size: 14px;
         max-width: 95vw;
         padding: 8px;
     }
-    input, .lower .email input {
+
+    input,
+    .lower .email input {
         padding-left: 10px;
         padding-right: 10px;
         padding-top: 10px;
@@ -519,41 +591,54 @@ small{
         width: 90vw;
         font-size: 12px;
     }
-    .getstarted, .lower .email button {
+
+    .getstarted,
+    .lower .email button {
         font-size: 16px;
         padding-left: 15px;
         padding-right: 20px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .first, .content {
+
+    .first,
+    .content {
         padding: 0 0.5rem;
         height: auto;
     }
+
     .happy {
         height: auto;
     }
+
     .happy .h-things div {
         width: 98vw;
         font-size: 1rem;
         padding: 5px;
     }
+
     .faq div {
         font-size: 14px;
         height: auto;
         padding: 8px 2px;
     }
+
     .footer .row {
         flex-direction: column;
         margin: 0;
     }
+
     .footer .row .col {
         margin: 10px 0;
     }
-    .blank, .lower {
+
+    .blank,
+    .lower {
         margin-top: 30px;
     }
-    .d-one, .s-one {
+
+    .d-one,
+    .s-one {
         width: 6rem;
         height: 8rem;
     }
